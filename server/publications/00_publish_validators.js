@@ -1,0 +1,5 @@
+PublishValidator = {
+	postOptions: {
+
+	}
+};

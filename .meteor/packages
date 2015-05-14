@@ -1,0 +1,46 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+#
+# Core packages
+#
+meteor-platform
+underscore
+audit-argument-checks
+iron:router
+mrt:moment
+reywood:publish-composite
+mrt:numeral
+meteorhacks:npm
+less
+
+
+#
+# UI packages
+materialize:materialize
+
+#
+# File managers
+#
+cfs:filesystem
+cfs:gridfs
+cfs:graphicsmagick
+cfs:standard-packages
+
+
+#
+# Account managers
+#
+accounts-facebook
+service-configuration
+
+npm-container
