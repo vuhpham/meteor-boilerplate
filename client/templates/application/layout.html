@@ -1,3 +1,15 @@
 <template name="layout">
+    <nav>
+        <div class="nav-wrapper teal">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li>
+                    <a href="{{pathFor route='home'}}">Home</a>
+                </li>
+                <li>
+                    <a href="{{pathFor route='posts'}}">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     {{> yield}}
 </template>
