@@ -40,7 +40,8 @@ cfs:standard-packages
 #
 # Account managers
 #
-accounts-facebook
+accounts-azure-ad
+accounts-saml2
 service-configuration
 
 npm-container

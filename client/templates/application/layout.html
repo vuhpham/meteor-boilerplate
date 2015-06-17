@@ -9,6 +9,16 @@
                     <a href="{{pathFor route='posts'}}">Blog</a>
                 </li>
             </ul>
+            <ul class="right">
+                {{#if currentUser}}
+                    <li><a href="{{pathFor route='profile'}}">{{currentUser.profile.name}}</a></li>
+                    <li><a href="#" id="logout">Log out</a></li>
+                {{else}}
+                <li>
+                    <a href="{{pathFor route='signin'}}">Login</a>
+                </li>
+                {{/if}}
+            </ul>
         </div>
     </nav>
     {{> yield}}

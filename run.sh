@@ -1,1 +1,1 @@
-meteor --settings settings.json
+meteor --port 8799 --settings settings.json
