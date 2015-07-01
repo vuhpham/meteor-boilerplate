@@ -31,10 +31,10 @@ materialize:materialize
 #
 # File managers
 #
-cfs:filesystem
-cfs:gridfs
-cfs:graphicsmagick
-cfs:standard-packages
+#cfs:filesystem
+#cfs:gridfs
+#cfs:graphicsmagick
+#cfs:standard-packages
 
 
 #

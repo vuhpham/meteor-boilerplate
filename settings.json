@@ -4,16 +4,16 @@
   },
   "private": {
     "azureAd": {
-      "tenantId": "",
-      "clientId": "",
-      "secret": ""
+      "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "clientId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+      "secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX="
     },
     "saml": {
-      "loginUrl": "",
-      "callbackUrl": "",
-      "entryPoint": "",
-      "metadataUrl": "",
-      "issuer": ""
+      "loginUrl": "/login",
+      "callbackUrl": "/login/callback",
+      "entryPoint": "https://edadfs.partners.extranet.microsoft.com/adfs/ls/IdpInitiatedSignOn.aspx?XXXX",
+      "metadataUrl": "https://edadfs.partners.extranet.microsoft.com/FederationMetadata/2007-06/FederationMetadata.xml",
+      "issuer": "https://XXXXXXX.XXXX.com"
     }
   }
 }

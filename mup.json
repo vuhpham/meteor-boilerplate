@@ -7,9 +7,9 @@
       "password": ""
     }
   ],
-  "ssl": {
+  //"ssl": {
     //"pem": "./server.pem"
-  },
+  //},
 
   // Install MongoDB in the server, does not destroy local MongoDB on future setup
   "setupMongo": true,
