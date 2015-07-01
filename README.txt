@@ -14,7 +14,7 @@ III. Deploy to Azure VM
   4. Run command line “mup deploy” to deploy app into VM
 
 IV. Notes & tips:
-  - Make sure you filled settings.json properly with ADFS SAML and Azure AD Oauth properties.
-  - You might need to increase deployCheckWaitTime in mup.json if your server coudn't finish by default time (15 seconds).
-  - You can trace deploy logs by excute "mup logs -f" in mup project (where mup.json is located).
-  - You might want to use Docker to save your deploy stage image for later useage. (https://www.docker.com/tryit/)
+  - Make sure you filled settings.json properly with ADFS SAML and Azure AD Oauth properties fore excute deploy command.
+  - You might need to increase deployCheckWaitTime in mup.json if your server coudn't finish deploying by default time (15 seconds).
+  - You can trace server logs by excute "mup logs -f" in mup project (where mup.json is located).
+  - Take a look on Docker for saving your deployment image. (https://www.docker.com/tryit/)
