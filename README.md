@@ -1,7 +1,7 @@
 ## Goal & Features
 Sample, boilerplate website is written by Meteor framework. This sample supports:
   1. Standard features: Accounts, Router, etc.
-  2. Microsoft Authentication: Login by Microsoft Azure AD and Microsoft ADFS (SAML2).
+  2. Microsoft Authentication: Login by Microsoft Azure AD (a fork from https://github.com/djluck/azure-active-directory) and Microsoft ADFS (SAML2). 
   3. Melding accounts: Make sure there are no 2 accounts have the same email. Eg: If user has already login by Microsoft Azure AD by john.smith@live.com and then later he uses that email to login by Microsoft ADFS, 2 services (Azure AD and ADFS) will point to only one account.
   
 ## Prerequisite
